@@ -32,6 +32,7 @@ async function getGames() {
             </div>`;
         }      
     } catch(error) {
+        resultsContainer.innerHTML = displayError("Error loading the content from the API")
         console.log(error);
     }
 }
