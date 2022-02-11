@@ -22,7 +22,8 @@ async function getGames() {
                 break;
             }
         
-            resultsContainer.innerHTML += `<div class="result">
+            resultsContainer.innerHTML += `
+            <div class="result">
             <ul>
                 <li>Name: ${gamesResult[i].name}</li>
                 <li>Rating: ${gamesResult[i].rating}</li>
