@@ -1,6 +1,8 @@
 body {
-    background-color: blue;
+    background-color: lightblue;
 }
+
+/* Looked for a spinner online - w3schools */ 
 
 .loader {
     border: 16px solid #f3f3f3; /* Light grey */
